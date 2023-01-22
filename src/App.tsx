@@ -1,11 +1,9 @@
-import './App.css'
+import React from 'react';
+import './App.css';
+import { CustomerComponent } from './App/CustomerComponent';
 
 function App() {
-    return (
-        <>
-            <h1>App</h1>
-        </>
-    )
+    return (<CustomerComponent />);
 }
 
-export default App
+export default App;
